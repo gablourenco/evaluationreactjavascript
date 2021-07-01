@@ -1,0 +1,41 @@
+.color{
+    margin-bottom: 50px;
+    background-color: rgb(219, 242, 246);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 1.5em;
+}
+img{
+    border-radius: 1em;
+    max-width: 90%;
+}
+
+.glyphicon-heart-empty,.glyphicon-heart {
+    color: red;
+}
+.descri{
+    padding: 1em;
+    border-radius: 2em;
+    background-color: rgb(206, 206, 255);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+.genr {
+    padding: 1em;
+    background-color: rgb(134, 66, 66);
+    max-width: 80%;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.fa{
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
