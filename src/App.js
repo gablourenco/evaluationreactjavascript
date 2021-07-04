@@ -1,19 +1,20 @@
 import { useState, useEffect } from 'react'
-
-import RuleList from './RuleList'
+import Search from './searchbar'
+import SerieList from './SerieList'
 
 export default function App() {
-    const [rulesData, setRulesData] = useState([])
+    const [seriesData, setSeriesData] = useState([])
  
        useEffect(() => {
         fetch('http://localhost:4000/rest/shows')
             .then(response => response.json())
-            .then(data => setRulesData(data))
+            .then(data => setSeriesData(data))
     }, [])
 
     return (
         <div>
-            <RuleList rules={rulesData} />
+            <div><Search/></div>
+            <SerieList series={seriesData} />
         </div>
     )
 }
